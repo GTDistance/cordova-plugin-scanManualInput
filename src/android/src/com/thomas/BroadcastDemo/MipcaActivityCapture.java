@@ -83,6 +83,17 @@ public class MipcaActivityCapture extends Activity implements Callback {
                 finish();
             }
         });
+        findViewById(getId("tv_manual_input", "id")).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent resultIntent = new Intent();
+                Bundle bundle = new Bundle();
+                bundle.putString("result", "手动输入");
+                resultIntent.putExtras(bundle);
+                setResult(RESULT_OK, resultIntent);
+                finish();
+            }
+        });
         hasSurface = false;
         inactivityTimer = new InactivityTimer(this);
     }
