@@ -19,8 +19,8 @@
 
 ### Quick Example
 
-	//扫描，参数pileCode扫描框下面的一段提示语，字符串类型
-	scan.recognize("pileCode",function (message) {
+	//扫描，参数scanText扫描框下面的一段提示语，字符串类型
+	scan.recognize("scanText",function (message) {
         alert(message);
       }, function (message) {
 
