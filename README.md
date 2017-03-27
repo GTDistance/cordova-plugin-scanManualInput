@@ -1,12 +1,12 @@
 
 
 # cordova-plugin-scanManualInput
-
+	带有手动输入按钮的扫描插件
 ## Installation
 
 	cordova plugin add https://github.com/GTDistance/cordova-plugin-scanManualInput.git
 
-##UnInstall
+## UnInstall
 	cordova plugin rm cordova-plugin-scanManualInput
 
 ### Supported Platforms
