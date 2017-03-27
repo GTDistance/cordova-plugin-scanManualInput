@@ -1,7 +1,7 @@
 var exec = require('cordova/exec');
 var scan = {
-	recognize:function(callback) {
-		exec(callback, callback, "scan", "recognize", []);
+	recognize:function(pileCode,callback) {
+		exec(callback, callback, "scan", "recognize", [pileCode]);
 	}
 };
 module.exports = scan;
